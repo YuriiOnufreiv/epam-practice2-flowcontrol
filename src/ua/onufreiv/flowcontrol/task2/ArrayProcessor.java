@@ -1,9 +1,15 @@
+/**
+ * Flow control. Task 2
+ */
 package ua.onufreiv.flowcontrol.task2;
 
 import java.util.Arrays;
 
 /**
- * Created by yurii on 11/4/16.
+ * Class allows to find the amount of numbers in array, it's minimal, maximal and average values
+ *
+ * @version 1.0
+ * @author Yurii Onufreiv
  */
 public class ArrayProcessor {
     private int[] initialArray;
@@ -12,6 +18,11 @@ public class ArrayProcessor {
     private int min = 0;
     private double average;
 
+    /**
+     * Parametrized constructor. Receives the array for further processing, then finds the
+     * amount of numbers in array, it's minimal, maximal and average values
+     * @param numbers array for further processing
+     */
     public ArrayProcessor(int... numbers) {
         if (numbers.length == 0) {
             throw new IllegalArgumentException("The length of array is 0");
@@ -54,6 +65,11 @@ public class ArrayProcessor {
         return average;
     }
 
+    /**
+     * String representation of current object
+     * @return string, containing initial array, numbers amount, minimal and maximal numbers,
+     * and average value of all numbers
+     */
     @Override
     public String toString() {
         return "Info for array: " + Arrays.toString(initialArray) +

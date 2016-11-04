@@ -1,9 +1,16 @@
+/**
+ * Flow control. Task 2
+ */
 package ua.onufreiv.flowcontrol.task2;
 
 import java.util.Random;
 
 /**
- * Created by yurii on 11/4/16.
+ * Runner class for demonstrating the solution for Task 2 - finding amount of numbers,
+ * minimal, maximal and average values for the randomly generated array
+ *
+ * @version 1.0
+ * @author Yurii Onufreiv
  */
 public class ArrayProcessorRunner {
     private static final int TESTS_AMOUNT = 3;

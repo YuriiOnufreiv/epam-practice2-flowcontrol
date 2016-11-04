@@ -1,7 +1,14 @@
+/**
+ * Flow control. Task 3
+ */
 package ua.onufreiv.flowcontrol.task3;
 
 /**
- * Created by yurii on 11/4/16.
+ * Runner class for demonstrating the solution for Task 3 - finding minimal integer amount of years
+ * for getting required profit from the deposit
+ *
+ * @version 1.0
+ * @author Yurii Onufreiv
  */
 public class DepositCalculatorRunner {
     public static void main(String[] args) {

@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1a2bf84a-635b-4686-a93f-4b7284ea4f7e" name="Default" comment="" />
+    <list default="true" id="1a2bf84a-635b-4686-a93f-4b7284ea4f7e" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ua/onufreiv/flowcontrol/task4/PyramidPrinter.java" afterPath="$PROJECT_DIR$/src/ua/onufreiv/flowcontrol/task4/TablePrinter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ua/onufreiv/flowcontrol/task4/PyramidPrinterRunner.java" afterPath="$PROJECT_DIR$/src/ua/onufreiv/flowcontrol/task4/TablePrinterRunner.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ua/onufreiv/flowcontrol/task1/NumberProcessor.java" afterPath="$PROJECT_DIR$/src/ua/onufreiv/flowcontrol/task1/NumberProcessor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ua/onufreiv/flowcontrol/task1/NumberProcessorRunner.java" afterPath="$PROJECT_DIR$/src/ua/onufreiv/flowcontrol/task1/NumberProcessorRunner.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ua/onufreiv/flowcontrol/task2/ArrayProcessor.java" afterPath="$PROJECT_DIR$/src/ua/onufreiv/flowcontrol/task2/ArrayProcessor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ua/onufreiv/flowcontrol/task2/ArrayProcessorRunner.java" afterPath="$PROJECT_DIR$/src/ua/onufreiv/flowcontrol/task2/ArrayProcessorRunner.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ua/onufreiv/flowcontrol/task3/DepositCalculator.java" afterPath="$PROJECT_DIR$/src/ua/onufreiv/flowcontrol/task3/DepositCalculator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ua/onufreiv/flowcontrol/task3/DepositCalculatorRunner.java" afterPath="$PROJECT_DIR$/src/ua/onufreiv/flowcontrol/task3/DepositCalculatorRunner.java" />
+    </list>
     <ignored path="Practice3.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -30,6 +40,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
@@ -52,7 +65,16 @@
         <option value="$PROJECT_DIR$/src/ua/onufreiv/epam/practice/task4/PyramidPrinterRunner.java" />
         <option value="$PROJECT_DIR$/src/ua/onufreiv/epam/practice/task4/PyramidPrinter.java" />
         <option value="$PROJECT_DIR$/src/ua/onufreiv/epam/practice/task2/ArrayProcessor.java" />
+        <option value="$PROJECT_DIR$/src/ua/onufreiv/flowcontrol/task1/NumberProcessorRunner.java" />
+        <option value="$PROJECT_DIR$/src/ua/onufreiv/flowcontrol/task1/NumberProcessor.java" />
+        <option value="$PROJECT_DIR$/src/ua/onufreiv/flowcontrol/task2/ArrayProcessor.java" />
+        <option value="$PROJECT_DIR$/src/ua/onufreiv/flowcontrol/task2/ArrayProcessorRunner.java" />
+        <option value="$PROJECT_DIR$/src/ua/onufreiv/flowcontrol/task3/DepositCalculatorRunner.java" />
+        <option value="$PROJECT_DIR$/src/ua/onufreiv/flowcontrol/task3/DepositCalculator.java" />
+        <option value="$PROJECT_DIR$/src/ua/onufreiv/flowcontrol/task4/PyramidPrinter.java" />
         <option value="$PROJECT_DIR$/src/ua/onufreiv/flowcontrol/task4/PyramidPrinterRunner.java" />
+        <option value="$PROJECT_DIR$/src/ua/onufreiv/flowcontrol/task4/TablePrinterRunner.java" />
+        <option value="$PROJECT_DIR$/src/ua/onufreiv/flowcontrol/task4/TablePrinter.java" />
       </list>
     </option>
   </component>
@@ -220,7 +242,7 @@
     <property name="SearchEverywhereHistoryKey" value="Intege&#9;PSI&#9;JAVA://java.lang.Integer&#10;Thread&#9;PSI&#9;JAVA://java.lang.Thread" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Application.PyramidPrinterRunner">
+  <component name="RunManager">
     <configuration default="false" name="NumberProcessorRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -281,14 +303,14 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="PyramidPrinterRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="TablePrinterRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="ua.onufreiv.flowcontrol.task4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="ua.onufreiv.flowcontrol.task4.PyramidPrinterRunner" />
+      <option name="MAIN_CLASS_NAME" value="ua.onufreiv.flowcontrol.task4.TablePrinterRunner" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -719,11 +741,11 @@
       <item index="0" class="java.lang.String" itemvalue="Application.NumberProcessorRunner" />
       <item index="1" class="java.lang.String" itemvalue="Application.ArrayProcessorRunner" />
       <item index="2" class="java.lang.String" itemvalue="Application.DepositCalculatorRunner" />
-      <item index="3" class="java.lang.String" itemvalue="Application.PyramidPrinterRunner" />
+      <item index="3" class="java.lang.String" itemvalue="Application.TablePrinterRunner" />
     </list>
     <recent_temporary>
       <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Application.PyramidPrinterRunner" />
+        <item index="0" class="java.lang.String" itemvalue="Application.TablePrinterRunner" />
         <item index="1" class="java.lang.String" itemvalue="Application.DepositCalculatorRunner" />
         <item index="2" class="java.lang.String" itemvalue="Application.ArrayProcessorRunner" />
         <item index="3" class="java.lang.String" itemvalue="Application.NumberProcessorRunner" />
@@ -749,12 +771,12 @@
       <workItem from="1478208560702" duration="5228000" />
       <workItem from="1478250882903" duration="3316000" />
       <workItem from="1478254224559" duration="5215000" />
-      <workItem from="1478259694383" duration="148000" />
+      <workItem from="1478259694383" duration="2637000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19249000" />
+    <option name="totallyTimeSpent" value="21738000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1366" height="744" extended-state="7" />
@@ -767,12 +789,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47487843" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47402596" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -814,7 +836,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -823,7 +847,7 @@
         <state relative-caret-position="420">
           <caret line="32" column="29" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
           <folding>
-            <element signature="docComment;class#ArrayProcessor#0" expanded="false" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -834,7 +858,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-          <folding />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -874,20 +900,12 @@
     <entry file="file://$PROJECT_DIR$/src/ua/onufreiv/epam/practice/task3.java" />
     <entry file="file://$PROJECT_DIR$/src/ua/onufreiv/epam/practice/Test.java" />
     <entry file="file://$PROJECT_DIR$/src/ua/onufreiv/epam/practice/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/ua/onufreiv/flowcontrol/task3/DepositCalculator.java">
+    <entry file="file://$PROJECT_DIR$/src/ua/onufreiv/flowcontrol/task1/NumberProcessorRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/onufreiv/flowcontrol/task2/ArrayProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-68">
-          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="3" />
           <folding>
-            <element signature="docComment;class#ArrayProcessor#0" expanded="false" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -895,48 +913,78 @@
     <entry file="file://$PROJECT_DIR$/src/ua/onufreiv/flowcontrol/task1/NumberProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="10" selection-end-column="3" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/onufreiv/flowcontrol/task4/PyramidPrinter.java">
+    <entry file="file://$PROJECT_DIR$/src/ua/onufreiv/flowcontrol/task2/ArrayProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="105">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="12" selection-end-column="3" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/onufreiv/flowcontrol/task1/NumberProcessorRunner.java">
+    <entry file="jar:///opt/java/jdk1.8.0_111/src.zip!/java/io/PrintStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+        <state relative-caret-position="555">
+          <caret line="803" column="16" selection-start-line="803" selection-start-column="16" selection-end-line="803" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ua/onufreiv/flowcontrol/task2/ArrayProcessorRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-          <folding />
+        <state relative-caret-position="435">
+          <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/onufreiv/flowcontrol/task4/TablePrinter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/onufreiv/flowcontrol/task4/TablePrinterRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ua/onufreiv/flowcontrol/task3/DepositCalculatorRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-          <folding />
+        <state relative-caret-position="75">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="11" selection-end-column="3" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/onufreiv/flowcontrol/task4/PyramidPrinterRunner.java">
+    <entry file="file://$PROJECT_DIR$/src/ua/onufreiv/flowcontrol/task3/DepositCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-          <folding />
+        <state relative-caret-position="75">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="11" selection-end-column="3" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

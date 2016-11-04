@@ -1,9 +1,15 @@
+/**
+ * Flow control. Task 1
+ */
 package ua.onufreiv.flowcontrol.task1;
 
 import java.util.Random;
 
 /**
- * Created by yurii on 11/3/16.
+ * Runner class for for demonstrating the solution for Task 1 - counting the digit entrances
+ *
+ * @version 1.0
+ * @author Yurii Onufreiv
  */
 public class NumberProcessorRunner {
     public static final int TESTS_AMOUNT = 5;
