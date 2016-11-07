@@ -3,6 +3,7 @@
  */
 package ua.onufreiv.flowcontrol.task2;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 
 /**
@@ -28,6 +29,27 @@ public class ArrayProcessor {
             throw new IllegalArgumentException("The length of array is 0");
         }
 
+        processArray(numbers);
+    }
+
+    /**
+     * Transforms {@code ArrayList<Integer>} to {@code int[]} array
+     * @param integers list of numbers
+     * @return array of number, received from passed list
+     */
+    private int[] getIntArray(ArrayList<Integer> integers) {
+        int[] array = new int[integers.size()];
+        for (int i = 0; i < integers.size(); i++) {
+            array[i] = integers.get(i);
+        }
+        return array;
+    }
+
+    /**
+     * Finds the amount of numbers in array, it's minimal, maximal and average values
+     * @param numbers array of numbers
+     */
+    private void processArray(int[] numbers) {
         initialArray = numbers;
         min = initialArray[0];
         max = initialArray[0];

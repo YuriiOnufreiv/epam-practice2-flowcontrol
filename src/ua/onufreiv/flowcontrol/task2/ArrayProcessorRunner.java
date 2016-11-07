@@ -3,7 +3,7 @@
  */
 package ua.onufreiv.flowcontrol.task2;
 
-import java.util.Random;
+import java.util.Scanner;
 
 /**
  * Runner class for demonstrating the solution for Task 2 - finding amount of numbers,
@@ -13,23 +13,23 @@ import java.util.Random;
  * @author Yurii Onufreiv
  */
 public class ArrayProcessorRunner {
-    private static final int TESTS_AMOUNT = 3;
-    private static final int MAX_ARRAY_LENGTH = 15;
-    private static final int MIN_BOUNDARY = -50;
-    private static final int MAX_BOUNDARY = 50;
 
     public static void main(String[] args) {
-        Random random = new Random();
-        ArrayProcessor arrayProcessor;
+        Scanner input = new Scanner(System.in);
 
-        System.out.println("ASSIGNMENT #2");
-        for (int i = 0; i < TESTS_AMOUNT; i++) {
-            int lengthOfArray = random.nextInt(MAX_ARRAY_LENGTH + 1) + 1;
-            int[] array = random.ints(lengthOfArray, MIN_BOUNDARY, MAX_BOUNDARY).toArray();
-            arrayProcessor = new ArrayProcessor(array);
-            System.out.println("\nResult of precessing:");
-            System.out.println(arrayProcessor);
+        System.out.print("Enter amount of numbers: ");
+        int amountOfNumbers = input.nextInt();
+        int[] numbers = new int[amountOfNumbers];
+
+        for (int i = 0; i < amountOfNumbers; i++)
+        {
+            System.out.printf("[%d]: ", i);
+            numbers[i] = input.nextInt();
         }
+
+        ArrayProcessor arrayProcessor = new ArrayProcessor(numbers);
+        System.out.println("\nResult of precessing:");
+        System.out.println(arrayProcessor);
     }
 
 }
