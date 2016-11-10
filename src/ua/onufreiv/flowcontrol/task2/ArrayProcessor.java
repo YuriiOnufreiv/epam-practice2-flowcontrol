@@ -33,19 +33,6 @@ public class ArrayProcessor {
     }
 
     /**
-     * Transforms {@code ArrayList<Integer>} to {@code int[]} array
-     * @param integers list of numbers
-     * @return array of number, received from passed list
-     */
-    private int[] getIntArray(ArrayList<Integer> integers) {
-        int[] array = new int[integers.size()];
-        for (int i = 0; i < integers.size(); i++) {
-            array[i] = integers.get(i);
-        }
-        return array;
-    }
-
-    /**
      * Finds the amount of numbers in array, it's minimal, maximal and average values
      * @param numbers array of numbers
      */

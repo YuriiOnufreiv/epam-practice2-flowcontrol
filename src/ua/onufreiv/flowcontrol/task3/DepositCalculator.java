@@ -63,6 +63,10 @@ public class DepositCalculator {
         int yearsRequired = 0;
         double tempAmount = initialAmount;
 
+        if(tempAmount >= targetAmount) {
+            return 0;
+        }
+
         do {
             yearsRequired++;
             if (yearsRequired > yearsDuration) {

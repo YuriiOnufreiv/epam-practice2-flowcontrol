@@ -10,21 +10,24 @@ package ua.onufreiv.flowcontrol.task4;
  * @author Yurii Onufreiv
  */
 public class TablePrinter {
+    private static StringBuilder builder;
     /**
      * Prints table in form of left - sided pyramid
      * @param rows amount of rows
      */
     public static void printLeftSided(int rows) {
+        builder = new StringBuilder();
         outer:
         for (int i = 0; i < rows; i++) {
-            System.out.println();
+            builder.append("\n");
             for (int j = i; ; j--) {
                 if (j < 0) {
                     continue outer;
                 }
-                System.out.print(j + " ");
+                builder.append(j).append(" ");
             }
         }
+        System.out.println(builder.toString());
     }
 
     /**
@@ -32,18 +35,20 @@ public class TablePrinter {
      * @param rows amount of rows
      */
     public static void printRightSided(int rows) {
+        builder = new StringBuilder();
         int i = 1;
         while (i <= rows) {
-            System.out.println();
+            builder.append("\n");
             for (int j = rows; j > 0; j--) {
                 if (j <= i) {
-                    System.out.print(j);
+                    builder.append(j);
                 } else {
-                    System.out.print(" ");
+                    builder.append(" ");
                 }
-                System.out.print(" ");
+                builder.append(" ");
             }
             i++;
         }
+        System.out.println(builder.toString());
     }
 }
