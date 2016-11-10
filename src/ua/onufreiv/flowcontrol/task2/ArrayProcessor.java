@@ -3,7 +3,6 @@
  */
 package ua.onufreiv.flowcontrol.task2;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 
 /**
